@@ -1,0 +1,30 @@
+/* body{
+    background-image: url('../img/teste.jpg');
+} */
+
+#tipo_circle{
+    list-style-type: circle;
+}
+
+#tipo_disc{
+    list-style-type: disc;
+}
+
+#tipo_None{
+    list-style-type: none;
+}
+
+.menu{
+    list-style-type: none;
+    border: 1px solid #707070;
+    width: 200px;
+    padding: 1px
+    /* trabalhando com margin trabalha com os 4 lados iguais */
+}
+
+.menu li{
+    border-bottom: 1px solid #7300ff;
+
+}
+
+/* display flex quebra colunas */
