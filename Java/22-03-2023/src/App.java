@@ -6,6 +6,17 @@ public class Aluno {
     private String curso;
     private String modalidade;
     private boolean status;
-    private float mediaGeral
-}
+    private float mediaGeral;
+
+    public Aluno(){
+    
+    }
+    public Aluno(int matricula, String nome){
+        this.matricula =matricula;
+        this.nome =nome;
+        this.curso =curso;
+        this.modalidade =modalidade;
+        this.status =status;
+
+    }
 
