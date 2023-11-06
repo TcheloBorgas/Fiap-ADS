@@ -1,9 +1,8 @@
-
-public class Caminhao_dois extends Veiculo_dois implements Imprimir {
+public class Caminhao extends Veiculo implements Imprimir {
     private int eixos;
     private boolean carreta;
 
-    public Caminhao_dois(String modelo, String placa, int ano, int eixos, boolean carreta) {
+    public Caminhao(String modelo, String placa, int ano, int eixos, boolean carreta) {
         super(modelo, placa, ano);
         this.eixos = eixos;
         this.carreta = carreta;

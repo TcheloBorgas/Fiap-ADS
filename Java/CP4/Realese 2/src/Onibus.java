@@ -1,8 +1,8 @@
-public class Onibus_dois extends Veiculo_dois implements Imprimir {
+public class Onibus extends Veiculo implements Imprimir {
     private int assentos;
     private String cor;
 
-    public Onibus_dois(String modelo, String placa, int ano, int assentos, String cor) {
+    public Onibus(String modelo, String placa, int ano, int assentos, String cor) {
         super(modelo, placa, ano);
         this.assentos = assentos;
         this.cor = cor;

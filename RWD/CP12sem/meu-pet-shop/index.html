@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Shop App</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- Navegação -->
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#bath">Banho</a>
+        <a href="#schedule">Agendamento</a>
+    </nav>
+
+    <!-- Página Inicial -->
+    <section id="home">
+        <h1>Bem-vindo ao Pet-Shop!</h1>
+        <p>A HappyPet é uma franquia de lojas com foco na vida do seu pet, seja gato ou cachorro. Nós temos lojas por
+            todo o Brasil e nossa especialidade é banho,
+            tosa, com maior cuidado possível. Vale considerar que nós usamos somente os melhores produtos para que seu
+            pet seja bem tratado em todos os quisitos, com
+            os profissionais mais qualificados na área.
+            A área de banho da HappyPet possui os melhores produtos possíveis para o seu pet em um preço totalmente
+            acessível. Possuindo produtos da melhor
+            qualidade do mercado. Vale lembrar que a HappyPet só contrata os funcionários de banho de acordo com sua
+            experiência na área de banho para pets, a maioria
+            dos nossos profissionais possui anos de experiência proporcionando o maior conforto possível, carinho e
+            cuidado extremo.
+            Para agendar um banho para o seu pet é fácil e rápido. Você só precisa entrar no site da HappyPet, onde você
+            pode ver os horários disponíveis para
+            serem marcado, informando as informaçõs necessárias sobre seu pet, para automaticamente ser informado a você
+            um valor, de acordo com raça, tamanho e etc.
+            Nossa equipe é qualificada com todas as raças de cachorros e gatos, com disponibilidade para raças especiais
+            e raras.
+            A nossa equipe também possui vendas. Entre elas temos disponíveis produtos como shampoos, condicionadores,
+            brinquedos, ossos, itens de higiene, remédios
+            ração entre outros. Nossa loja é conhecida por fornecer apenas produtos originais e de qualidade, somos
+            muito dedicados em proporcionar sempre o máximo de
+            conforto para o seu pet.
+            Aceitamos também todas as formas de pagamento, sendo elas cartão de crédito e débito de todas as bandeiras,
+            pix e cheque. Aqui tornamos a sua compra
+            o mais rápido e fácil possível.</p>
+    </section>
+
+    <!-- Página de Banho -->
+    <section id="bath">
+        <h1>Banho</h1>
+        <ul id="animal-list">
+            <!-- Lista de animais será gerada aqui -->
+        </ul>
+        <div id="bath-count">Animais que tomaram banho: <span>0</span></div>
+    </section>
+
+    <!-- Página de Agendamento -->
+    <section id="schedule">
+        <h1>Agendamento</h1>
+        <form id="bath-form">
+            <label for="animal-select">Selecione o Animal:</label>
+            <select id="animal-select" required>
+                <!-- Opções de animais para agendamento serão geradas aqui -->
+            </select>
+            <button type="submit">Agendar Banho</button>
+        </form>
+    </section>
+    <script src="scripts.js"></script>
+    <form id="bathForm">
+        <label for="animalSelect">Escolha um animal:</label>
+        <select id="animalSelect">
+            <!-- As opções serão geradas dinamicamente pelo JavaScript -->
+        </select>
+
+        <label for="date">Data:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Hora:</label>
+        <input type="time" id="time" required>
+
+        <button type="submit">Agendar Banho</button>
+    </form>
+
+    <h2>Animais Agendados:</h2>
+    <ul id="scheduledAnimals">
+        <!-- A lista de animais agendados será gerada dinamicamente pelo JavaScript -->
+    </ul>
+    <h1>Contagem de Animais que Tomaram Banho</h1>
+
+    <div id="banho-count">0</div>
+
+    <button id="banho-button">Tomar Banho</button>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+
+    Henry Komatsu: RM550684
+
+    Matheus de Castro Telles: RM98413
+
+    Marcelo Góes da Costa: RM98893
+
+    Victor Augusto Passos de Moraes: RM99416
+
+    Daniel Alves: RM552310
+
+</footer>
+
+</html>
