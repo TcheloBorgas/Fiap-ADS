@@ -1,0 +1,20 @@
+/* Coloque este CSS em um arquivo dentro da pasta styles, como styles.css */
+.navigation {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+}

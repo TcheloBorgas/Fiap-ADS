@@ -1,0 +1,72 @@
+/* Estilos para a página de nova partida */
+.new-game-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-list {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.event-list p {
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+/* Estilos para o placar */
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.scoreboard div {
+  flex-basis: 48%;
+  padding: 20px;
+  background: #eee;
+  border: 1px solid #ddd;
+}
+
+/* Estilos para os controles de jogo */
+.game-control {
+  margin-top: 20px;
+}
+
+.game-control button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game-control button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para a página de estatísticas */
+.stats-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.stats-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stats-container li {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  padding: 10px;
+}
